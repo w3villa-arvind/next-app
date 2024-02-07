@@ -6,6 +6,7 @@ interface CloudinartResult {
     public_id: string
 }
 
+
 const UploadPage = () => {
     const [publicId,setPublicId] = useState('')
     return (
